@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Books - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="header-logo">📚 Novel Books</a>
+            
+            <div class="header-search">
+                <input type="text" placeholder="Search for books, authors...">
+                <button>Search</button>
+            </div>
+            
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="cart.html" class="nav-link nav-cart-button">
+                    Cart (<span id="cart-count">0</span>)
+                </a>
+                <a href="#" class="nav-link">Profile 👤</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-banner">
+            <h2>Unlock Your Next Great Read</h2>
+            <p>Explore thousands of novels, from timeless classics to new releases. Great deals everyday!</p>
+            <button class="hero-button">Shop Now</button>
+        </section>
+        <section class="product-row">
+            <div class="product-row-header">
+                <h2>Minimum 40% Discount</h2>
+                <a href="#" class="see-all-link">See All</a>
+            </div>
+            <div class="product-carousel" id="discount-row">
+                </div>
+        </section>
+        
+        <section class="product-row">
+            <div class="product-row-header">
+                <h2>New Arrivals</h2>
+                <a href="#" class="see-all-link">See All</a>
+            </div>
+            <div class="product-carousel" id="new-arrivals-row">
+                </div>
+        </section>
+
+        <section class="product-row">
+            <div class="product-row-header">
+                <h2>Fantasy & Sci-Fi Bestsellers</h2>
+                <a href="#" class="see-all-link">See All</a>
+            </div>
+            <div class="product-carousel" id="fantasy-scifi-row">
+                </div>
+        </section>
+
+        <section class="product-row">
+            <div class="product-row-header">
+                <h2>Biographies & Memoirs</h2>
+                <a href="#" class="see-all-link">See All</a>
+            </div>
+            <div class="product-carousel" id="biographies-row">
+                </div>
+        </section>
+        </main>
+
+    <footer class="footer">
+        <p>© 2025 Novel Books. All rights reserved.</p>
+    </footer>
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

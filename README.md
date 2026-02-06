@@ -26,14 +26,14 @@ Open index.html in your browser
 
 No installation required!
 ##Project Structure
----
+
 ├── index.html      # Homepage with product categories
 ├── cart.html       # Shopping cart page
 ├── style.css       # All styling
 ├── app.js          # Main functionality
 ├── cart.js         # Cart page logic
 └── products.js     # Product data
----
+
 
 ## How It Works
 

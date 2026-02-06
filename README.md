@@ -25,7 +25,8 @@ bashgit clone https://github.com/jatvarsha/Book.git
 Open index.html in your browser
 
 No installation required!
-##Project Structure
+
+## Project Structure
 
 ├── index.html      # Homepage with product categories
 ├── cart.html       # Shopping cart page
